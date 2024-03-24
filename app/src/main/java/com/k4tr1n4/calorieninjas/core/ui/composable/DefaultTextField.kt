@@ -2,7 +2,10 @@ package com.k4tr1n4.calorieninjas.core.ui.composable
 
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.TextField
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Search
+import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -25,7 +28,7 @@ fun DefaultTextField(
 
     val keyboardController = LocalSoftwareKeyboardController.current
 
-    TextField(
+    OutlinedTextField(
         modifier = modifier,
         value = textFieldValue,
         onValueChange = {
@@ -36,6 +39,9 @@ fun DefaultTextField(
             onDone()
             keyboardController?.hide()
         }),
-        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done)
+        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+        leadingIcon = {
+            Icon(imageVector = Icons.Outlined.Search, contentDescription = null)
+        }
     )
 }
