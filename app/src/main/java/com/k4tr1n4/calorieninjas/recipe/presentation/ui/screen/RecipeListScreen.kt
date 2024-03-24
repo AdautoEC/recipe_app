@@ -25,7 +25,11 @@ import com.k4tr1n4.calorieninjas.core.ui.composable.Loading
 import com.k4tr1n4.calorieninjas.recipe.domain.model.RecipeModel
 import com.k4tr1n4.calorieninjas.recipe.presentation.ui.composable.RecipeList
 import com.k4tr1n4.calorieninjas.recipe.presentation.viewModel.RecipeListViewModel
+import com.ramcosta.composedestinations.annotation.Destination
+import com.ramcosta.composedestinations.annotation.RootNavGraph
 
+@RootNavGraph(start = true)
+@Destination
 @Composable
 fun RecipeListScreen(
     viewModel: RecipeListViewModel = hiltViewModel()
