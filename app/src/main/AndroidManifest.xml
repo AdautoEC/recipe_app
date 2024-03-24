@@ -15,14 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalorieNinjas"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.CalorieNinjas">
-        </activity>
 
         <activity
-            android:name=".recipe.presentation.RecipeListActivity"
+            android:name=".FlowActivity"
             android:exported="true"
             android:theme="@style/Theme.CalorieNinjas">
             <intent-filter>
