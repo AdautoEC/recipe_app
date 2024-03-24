@@ -56,10 +56,15 @@ android {
             option("-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true")
         }
     }
+    applicationVariants.all {
+        addJavaSourceFoldersToModel(
+            File(buildFile, "generated/ksp/$name/kotlin")
+        )
+    }
 }
 
 dependencies {
-
+    // core
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
@@ -78,14 +83,17 @@ dependencies {
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
 
-
     // network
     implementation(libs.retrofit)
     implementation(libs.okhttp.interceptor)
     testImplementation(libs.okhttp.mockserver)
 
-    //di
+    // di
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
+
+    //navigation
+    implementation(libs.compose.destinations.core)
+    ksp(libs.compose.destinations.ksp)
 }
