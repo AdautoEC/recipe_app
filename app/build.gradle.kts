@@ -81,13 +81,8 @@ dependencies {
 
     // network
     implementation(libs.retrofit)
-    implementation(libs.retrofit.moshi)
     implementation(libs.okhttp.interceptor)
     testImplementation(libs.okhttp.mockserver)
-
-    // json parsing
-    implementation(libs.moshi)
-    ksp(libs.moshi.codegen)
 
     //di
     implementation(libs.hilt.android)
