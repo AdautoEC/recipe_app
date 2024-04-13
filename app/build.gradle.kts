@@ -5,14 +5,15 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.dagger.hilt)
+    alias(libs.plugins.parcelize)
 }
 
 android {
-    namespace = "com.k4tr1n4.calorieninjas"
+    namespace = "com.k4tr1n4.marvelcomics"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.k4tr1n4.calorieninjas"
+        applicationId = "com.k4tr1n4.marvelcomics"
         minSdk = 23
         targetSdk = 34
         versionCode = 1
@@ -22,6 +23,11 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        buildConfigField("String", "API_KEY", "\"b7e14bab409c70a5c4e7c2b319c09d7b\"")
+        buildConfigField("String", "TS", "\"1682982412\"")
+        buildConfigField("String", "HASH", "\"3482f01e9bf207a437a4b621c91339ad\"")
+        buildConfigField("String", "MARVEL_BASE_URL", "\"https://gateway.marvel.com/v1/public/\"")
     }
 
     buildTypes {
@@ -42,6 +48,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.compose.extension.get()
@@ -96,4 +103,16 @@ dependencies {
     //navigation
     implementation(libs.compose.destinations.core)
     ksp(libs.compose.destinations.ksp)
+
+    // unit test/*testImplementation(libs.junit)
+    //    testImplementation(libs.turbine)
+    //    testImplementation(libs.androidx.test.core)
+    //    testImplementation(libs.mockito.kotlin)
+    //    testImplementation(libs.mockito.inline)
+    //    testImplementation(libs.coroutines.test)
+    //    androidTestImplementation(libs.truth)
+    //    androidTestImplementation(libs.androidx.junit)
+    //    androidTestImplementation(libs.androidx.espresso)
+    //    androidTestImplementation(libs.android.test.runner)*/
+
 }

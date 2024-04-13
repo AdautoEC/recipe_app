@@ -13,13 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CalorieNinjas"
+        android:theme="@style/Theme.MarvelComics"
         tools:targetApi="31">
 
         <activity
             android:name=".FlowActivity"
             android:exported="true"
-            android:theme="@style/Theme.CalorieNinjas">
+            android:theme="@style/Theme.MarvelComics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

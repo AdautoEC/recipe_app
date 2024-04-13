@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">CalorieNinjas</string>
+    <string name="app_name">Marvel Comics</string>
+    <string name="comic_screen_title">Lista de HQs</string>
 </resources>
