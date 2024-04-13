@@ -45,6 +45,7 @@ class ResponseCallAdapter<T>(
                 emit(LoadingEvent.Success(result))
             }catch (t: Throwable){
                 Log.e("Response - error message:", t.message.toString())
+                Log.e("Response - error cause:", t.cause.toString())
                 Log.d("Response - error stack trace:", t.stackTraceToString())
                 emit(LoadingEvent.Error(t))
             }

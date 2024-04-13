@@ -1,7 +1,9 @@
 package com.k4tr1n4.marvelcomics.comics.presentation.ui.screen.comics
 
+import android.app.Activity
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
+import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.k4tr1n4.marvelcomics.comics.presentation.viewModel.ComicsViewModel
 import com.k4tr1n4.marvelcomics.core.network.model.getErrorThrowableOrNull
@@ -20,9 +22,14 @@ fun ComicsScreen(
     viewModel: ComicsViewModel = hiltViewModel()
 ){
     val state = viewModel.state.collectAsState()
+    val activity = (LocalContext.current as? Activity)
 
     with(state.value){
-        DefaultScreen(isLoading = isLoading(), errorThrowable = getErrorThrowableOrNull()){
+        DefaultScreen(
+            isLoading = isLoading(),
+            errorThrowable = getErrorThrowableOrNull(),
+            onDismissError = {activity?.finishAffinity()}
+        ){
             ComicsContent(
                 recipe = getSuccessDataOrNull(),
                 onClick = {}

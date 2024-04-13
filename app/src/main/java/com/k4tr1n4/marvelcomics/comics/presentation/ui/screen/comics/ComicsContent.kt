@@ -39,7 +39,8 @@ fun ColumnScope.ComicsContent(
 fun ComicsContentPreview(){
     DefaultScreen(
         isLoading = false,
-        errorThrowable = null
+        errorThrowable = null,
+        onDismissError = {}
     ) {
         ComicsContent(
             recipe = null,
