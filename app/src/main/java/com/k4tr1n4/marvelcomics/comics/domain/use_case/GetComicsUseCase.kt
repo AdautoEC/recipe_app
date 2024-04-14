@@ -1,6 +1,6 @@
 package com.k4tr1n4.marvelcomics.comics.domain.use_case
 
-import com.k4tr1n4.marvelcomics.comics.data.model.ItemModel.DataModel.ResultModel.ThumbnailModel
+import com.k4tr1n4.marvelcomics.comics.data.remote.model.ItemModel.DataModel.ResultModel.ThumbnailModel
 import com.k4tr1n4.marvelcomics.core.network.model.LoadingEvent
 import com.k4tr1n4.marvelcomics.core.network.model.mapSuccess
 import com.k4tr1n4.marvelcomics.comics.domain.model.ComicsModel
@@ -29,4 +29,13 @@ class GetComicsUseCase @Inject constructor(private val repository: ComicsReposit
     }
 }
 
-private fun ThumbnailModel.getFullPath() = "$path.$extension".replace(HTTP, HTTPS)
+fun ThumbnailModel.getFullPath() = "$path.$extension".replace(HTTP, HTTPS)
+fun String.getThumbnailModel(): ThumbnailModel {
+    val values = this.split(".")
+    if(values.size == 2)
+        return ThumbnailModel(
+            path = values[0].replace(".", ""),
+            extension = values[1]
+        )
+    return ThumbnailModel(path = "", extension = "")
+}

@@ -1,5 +1,6 @@
 package com.k4tr1n4.marvelcomics.comics.di
 
+import com.k4tr1n4.marvelcomics.comics.data.local.ComicsDao
 import com.k4tr1n4.marvelcomics.comics.data.remote.ComicDataStore
 import com.k4tr1n4.marvelcomics.comics.data.repository.ComicsRepositoryImpl
 import com.k4tr1n4.marvelcomics.comics.domain.repository.ComicsRepository

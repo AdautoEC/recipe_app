@@ -1,4 +1,4 @@
-package com.k4tr1n4.marvelcomics.comics.data.model
+package com.k4tr1n4.marvelcomics.comics.data.remote.model
 
 import com.google.gson.annotations.SerializedName
 

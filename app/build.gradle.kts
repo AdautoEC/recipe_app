@@ -82,7 +82,7 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.appcompat)
     implementation(libs.coil.compose)
-    testImplementation(libs.junit)
+    implementation(libs.kotlinx.coroutines.android)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(platform(libs.compose.bom))
@@ -93,26 +93,35 @@ dependencies {
     // network
     implementation(libs.retrofit)
     implementation(libs.okhttp.interceptor)
-    testImplementation(libs.okhttp.mockserver)
 
     // di
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 
-    //navigation
+    // navigation
     implementation(libs.compose.destinations.core)
     ksp(libs.compose.destinations.ksp)
 
-    // unit test/*testImplementation(libs.junit)
-    //    testImplementation(libs.turbine)
-    //    testImplementation(libs.androidx.test.core)
-    //    testImplementation(libs.mockito.kotlin)
-    //    testImplementation(libs.mockito.inline)
-    //    testImplementation(libs.coroutines.test)
-    //    androidTestImplementation(libs.truth)
-    //    androidTestImplementation(libs.androidx.junit)
-    //    androidTestImplementation(libs.androidx.espresso)
-    //    androidTestImplementation(libs.android.test.runner)*/
+    // room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    annotationProcessor (libs.androidx.room.compiler)
+
+    // test
+    testImplementation(libs.turbine)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.kotlinx.coroutines.android)
+    testImplementation(libs.junit)
+    testImplementation(libs.okhttp.mockserver)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.core.testing)
+    testImplementation(libs.mockito.kotlin)
+
+    androidTestImplementation(libs.hilt.android.testing)
+    androidTestImplementation(libs.truth)
+    androidTestImplementation(libs.androidx.test.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.runner)
 
 }
