@@ -6,7 +6,7 @@ import com.k4tr1n4.marvelcomics.comics.data.local.entity.ComicsEntity
 
 @Database(
     entities = [ComicsEntity::class],
-    version = 1,
+    version = 0,
     exportSchema = true
 )
 

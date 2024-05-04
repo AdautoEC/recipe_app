@@ -27,7 +27,7 @@ internal object DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideCharacterDao(appDatabase: MarvelDatabase): ComicsDao {
+    fun provideComicsDao(appDatabase: MarvelDatabase): ComicsDao {
         return appDatabase.comicsDao()
     }
 

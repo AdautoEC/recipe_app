@@ -83,6 +83,9 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.coil.compose)
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.paging.runtime.ktx)
+    implementation(libs.androidx.paging.compose)
+    implementation(libs.accompanist.swiperefresh)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(platform(libs.compose.bom))
@@ -106,7 +109,7 @@ dependencies {
     // room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    annotationProcessor (libs.androidx.room.compiler)
+    kapt (libs.androidx.room.compiler)
 
     // test
     testImplementation(libs.turbine)

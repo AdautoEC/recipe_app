@@ -23,6 +23,10 @@ object ComicEntityMapper: EntityMapper<ItemModel, List<ComicsEntity>> {
     override fun asDomain(entity: List<ComicsEntity>): ItemModel =
         ItemModel(
             data = DataModel(
+                offset = null,
+                limit = null,
+                total = null,
+                count = null,
                 results = entity.map {comic ->
                     ResultModel(
                         title = comic.title,

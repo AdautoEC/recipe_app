@@ -15,6 +15,6 @@ import javax.inject.Singleton
 internal object RepositoryModule {
   @Provides
   @Singleton
-  fun provideRecipeRepository(dataStore: ComicDataStore) : ComicsRepository =
-    ComicsRepositoryImpl(dataStore)
+  fun provideRecipeRepository(dataStore: ComicDataStore, dao: ComicsDao) : ComicsRepository =
+    ComicsRepositoryImpl(dataStore, dao)
 }

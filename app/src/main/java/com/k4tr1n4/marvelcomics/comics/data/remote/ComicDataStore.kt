@@ -8,7 +8,7 @@ import javax.inject.Inject
 class ComicDataStore @Inject constructor(
     private val service: ComicService
 ) {
-    fun getComics(): Flow<LoadingEvent<ItemModel>> {
-        return service.getComics()
+    fun getComics(offset: Int? = 0): Flow<LoadingEvent<ItemModel>> {
+        return service.getComics(offset)
     }
 }
