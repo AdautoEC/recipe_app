@@ -23,11 +23,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-
-        buildConfigField("String", "API_KEY", "\"b7e14bab409c70a5c4e7c2b319c09d7b\"")
-        buildConfigField("String", "TS", "\"1682982412\"")
-        buildConfigField("String", "HASH", "\"3482f01e9bf207a437a4b621c91339ad\"")
-        buildConfigField("String", "MARVEL_BASE_URL", "\"https://gateway.marvel.com/v1/public/\"")
+        buildConfigField("String", "BASE_URL", "" +
+                "\"https://api.mercadolibre.com/sites/MLB/\"")
     }
 
     buildTypes {

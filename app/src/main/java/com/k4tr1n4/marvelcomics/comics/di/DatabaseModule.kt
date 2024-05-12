@@ -20,7 +20,7 @@ internal object DatabaseModule {
         application: Application,
     ): MarvelDatabase{
         return Room
-            .databaseBuilder(application,MarvelDatabase::class.java,"Marvel.db")
+            .databaseBuilder(application,MarvelDatabase::class.java,"ML.db")
             .fallbackToDestructiveMigration()
             .build()
     }

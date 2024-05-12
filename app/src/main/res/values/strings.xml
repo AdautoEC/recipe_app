@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Marvel Comics</string>
-    <string name="comic_screen_title">Lista de HQs</string>
-    <string name="comic_screen_error_title">Atenção</string>
-    <string name="comic_screen_error_description">Houve um erro ao acessar a api.\nPor favor tente novamente mais tarde</string>
-    <string name="comic_screen_error_button">Fechar app</string>
+    <string name="search_screen_title">Lista de Produtos</string>
+    <string name="search_screen_field_placeholder">Qual produto quer buscar?</string>
+    <string name="search_screen_error_title">Atenção</string>
+    <string name="search_screen_error_description">Houve um erro ao acessar a api.\nPor favor tente novamente mais tarde</string>
+    <string name="search_screen_error_button">Fechar app</string>
 </resources>

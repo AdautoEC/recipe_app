@@ -32,7 +32,7 @@ import coil.request.ImageRequest
 fun AsyncImageShimmer(
     modifier: Modifier = Modifier,
     url: String,
-    size: Dp = 120.dp
+    size: Dp = 64.dp
 ){
     var shimmerEffectState by remember {
         mutableStateOf(true)

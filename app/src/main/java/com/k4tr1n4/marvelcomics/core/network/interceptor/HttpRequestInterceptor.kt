@@ -12,9 +12,6 @@ internal class HttpRequestInterceptor : Interceptor {
     val request = originalRequest
       .newBuilder()
       .url(originalRequest.url.newBuilder()
-        .addQueryParameter(TS, BuildConfig.TS)
-        .addQueryParameter(API_KEY, BuildConfig.API_KEY)
-        .addQueryParameter(HASH, BuildConfig.HASH)
         .build()
       ).build()
     Log.d("Request - url:", request.url.toString())

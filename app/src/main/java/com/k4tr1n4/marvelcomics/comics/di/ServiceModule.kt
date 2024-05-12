@@ -1,6 +1,6 @@
 package com.k4tr1n4.marvelcomics.comics.di
 
-import com.k4tr1n4.marvelcomics.comics.data.remote.ComicService
+import com.k4tr1n4.marvelcomics.comics.data.remote.MLService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -13,7 +13,7 @@ import javax.inject.Singleton
 internal object ServiceModule {
   @Provides
   @Singleton
-  fun provideRecipeService(retrofit: Retrofit): ComicService {
-    return retrofit.create(ComicService::class.java)
+  fun provideMLService(retrofit: Retrofit): MLService {
+    return retrofit.create(MLService::class.java)
   }
 }

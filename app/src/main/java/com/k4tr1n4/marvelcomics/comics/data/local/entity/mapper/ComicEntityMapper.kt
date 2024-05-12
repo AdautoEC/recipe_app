@@ -4,9 +4,7 @@ import com.k4tr1n4.marvelcomics.comics.data.local.entity.ComicsEntity
 import com.k4tr1n4.marvelcomics.comics.data.remote.model.ItemModel
 import com.k4tr1n4.marvelcomics.comics.data.remote.model.ItemModel.DataModel
 import com.k4tr1n4.marvelcomics.comics.data.remote.model.ItemModel.DataModel.ResultModel
-import com.k4tr1n4.marvelcomics.comics.domain.model.ComicsModel
-import com.k4tr1n4.marvelcomics.comics.domain.use_case.GetComicsUseCase.Companion.DEFAULT_DESCRIPTION
-import com.k4tr1n4.marvelcomics.comics.domain.use_case.getFullPath
+import com.k4tr1n4.marvelcomics.comics.domain.use_case.GetItemsUseCase.Companion.DEFAULT_DESCRIPTION
 import com.k4tr1n4.marvelcomics.comics.domain.use_case.getThumbnailModel
 
 object ComicEntityMapper: EntityMapper<ItemModel, List<ComicsEntity>> {
@@ -15,7 +13,7 @@ object ComicEntityMapper: EntityMapper<ItemModel, List<ComicsEntity>> {
             ComicsEntity(
                 title = comic.title,
                 description = comic.description?: DEFAULT_DESCRIPTION,
-                pathImg = comic.thumbnail.getFullPath()
+                pathImg = comic.thumbnail.toString()
             )
         }
 

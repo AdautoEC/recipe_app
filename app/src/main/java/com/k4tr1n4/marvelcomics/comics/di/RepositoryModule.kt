@@ -1,9 +1,8 @@
 package com.k4tr1n4.marvelcomics.comics.di
 
-import com.k4tr1n4.marvelcomics.comics.data.local.ComicsDao
-import com.k4tr1n4.marvelcomics.comics.data.remote.ComicDataStore
-import com.k4tr1n4.marvelcomics.comics.data.repository.ComicsRepositoryImpl
-import com.k4tr1n4.marvelcomics.comics.domain.repository.ComicsRepository
+import com.k4tr1n4.marvelcomics.comics.data.remote.MLDataStore
+import com.k4tr1n4.marvelcomics.comics.data.repository.MLRepositoryImpl
+import com.k4tr1n4.marvelcomics.comics.domain.repository.MLRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,6 +14,6 @@ import javax.inject.Singleton
 internal object RepositoryModule {
   @Provides
   @Singleton
-  fun provideRecipeRepository(dataStore: ComicDataStore, dao: ComicsDao) : ComicsRepository =
-    ComicsRepositoryImpl(dataStore, dao)
+  fun provideMLRepository(dataStore: MLDataStore) : MLRepository =
+    MLRepositoryImpl(dataStore)
 }

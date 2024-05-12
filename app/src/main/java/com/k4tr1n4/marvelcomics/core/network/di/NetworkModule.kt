@@ -29,7 +29,7 @@ internal object NetworkModule {
   fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
     return Retrofit.Builder()
       .client(okHttpClient)
-      .baseUrl(BuildConfig.MARVEL_BASE_URL)
+      .baseUrl(BuildConfig.BASE_URL)
       .addCallAdapterFactory(FlowCallAdapterFactory.create())
       .addConverterFactory(GsonConverterFactory.create())
       .build()

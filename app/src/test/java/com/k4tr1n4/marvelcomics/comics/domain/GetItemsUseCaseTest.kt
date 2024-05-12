@@ -1,11 +1,8 @@
 package com.k4tr1n4.marvelcomics.comics.domain
 
 import app.cash.turbine.test
-import com.k4tr1n4.marvelcomics.comics.data.remote.ComicDataStore
-import com.k4tr1n4.marvelcomics.comics.data.remote.ComicService
-import com.k4tr1n4.marvelcomics.comics.data.repository.ComicsRepositoryImpl
-import com.k4tr1n4.marvelcomics.comics.domain.repository.ComicsRepository
-import com.k4tr1n4.marvelcomics.comics.domain.use_case.GetComicsUseCase
+import com.k4tr1n4.marvelcomics.comics.domain.repository.MLRepository
+import com.k4tr1n4.marvelcomics.comics.domain.use_case.GetItemsUseCase
 import com.k4tr1n4.marvelcomics.comics.util.MainCourotinesRule
 import com.k4tr1n4.marvelcomics.comics.util.MockUtil
 import com.k4tr1n4.marvelcomics.core.network.model.LoadingEvent
@@ -27,11 +24,11 @@ import org.mockito.MockitoAnnotations
 import kotlin.time.DurationUnit
 import kotlin.time.toDuration
 
-class GetComicsUseCaseTest {
+class GetItemsUseCaseTest {
 
     @Mock
-    private lateinit var repository: ComicsRepository
-    private lateinit var useCase: GetComicsUseCase
+    private lateinit var repository: MLRepository
+    private lateinit var useCase: GetItemsUseCase
 
     @get:Rule
     val coroutinesRule = MainCourotinesRule()
@@ -39,7 +36,7 @@ class GetComicsUseCaseTest {
     @Before
     fun setup() {
         MockitoAnnotations.openMocks(this)
-        useCase = GetComicsUseCase(repository)
+        useCase = GetItemsUseCase(repository)
     }
 
     @Test

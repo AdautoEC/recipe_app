@@ -1,9 +1,9 @@
 package com.k4tr1n4.marvelcomics.comics.data
 
 import app.cash.turbine.test
-import com.k4tr1n4.marvelcomics.comics.data.remote.ComicDataStore
-import com.k4tr1n4.marvelcomics.comics.data.remote.ComicService
-import com.k4tr1n4.marvelcomics.comics.data.repository.ComicsRepositoryImpl
+import com.k4tr1n4.marvelcomics.comics.data.remote.MLDataStore
+import com.k4tr1n4.marvelcomics.comics.data.remote.MLService
+import com.k4tr1n4.marvelcomics.comics.data.repository.MLRepositoryImpl
 import com.k4tr1n4.marvelcomics.comics.util.MainCourotinesRule
 import com.k4tr1n4.marvelcomics.comics.util.MockUtil
 import com.k4tr1n4.marvelcomics.core.network.model.LoadingEvent
@@ -25,14 +25,14 @@ import org.mockito.MockitoAnnotations
 import kotlin.time.DurationUnit
 import kotlin.time.toDuration
 
-class ComicsRepositoryImplTest {
+class MLRepositoryImplTest {
 
     @Mock
-    private lateinit var service: ComicService
+    private lateinit var service: MLService
 
-    private lateinit var repository: ComicsRepositoryImpl
+    private lateinit var repository: MLRepositoryImpl
 
-    private lateinit var dataStore: ComicDataStore
+    private lateinit var dataStore: MLDataStore
 
     @get:Rule
     val coroutinesRule = MainCourotinesRule()
@@ -40,8 +40,8 @@ class ComicsRepositoryImplTest {
     @Before
     fun setup() {
         MockitoAnnotations.openMocks(this)
-        dataStore = ComicDataStore(service)
-        repository = ComicsRepositoryImpl(dataStore)
+        dataStore = MLDataStore(service)
+        repository = MLRepositoryImpl(dataStore)
     }
 
     @Test
