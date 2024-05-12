@@ -28,6 +28,7 @@ android {
 
     productFlavors {
         create("mlb") {
+            isDefault = true
             applicationId = "com.ml.brasil"
             dimension = "app"
             buildConfigField("String", "BASE_URL",
