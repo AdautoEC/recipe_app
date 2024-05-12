@@ -33,7 +33,7 @@ fun ColumnScope.MLList(
 
 @Preview(showBackground = true)
 @Composable
-fun ComicsListPreview(){
+fun MLListPreview(){
     Column(modifier = Modifier.fillMaxSize()) {
         MLList(
             list = listOf(

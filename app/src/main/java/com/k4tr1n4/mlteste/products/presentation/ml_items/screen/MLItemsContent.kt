@@ -103,15 +103,13 @@ fun ColumnScope.MLItemsContent(
         onClick = {
             coroutineScope.launch { listState.scrollToItem(index = 0) }
         }
-    ) {
-        Text(text = "Voltar ao topo")
-    }
+    ) { Text(text = "Voltar ao topo") }
 
 }
 
 @Composable
 @Preview(showBackground = true)
-fun ComicsContentPreview(){
+fun MLItemsContentPreview(){
     val pagingItems = flowOf(PagingData.empty<MLItemModel>()).collectAsLazyPagingItems()
     val search =  remember {
         mutableStateOf("")

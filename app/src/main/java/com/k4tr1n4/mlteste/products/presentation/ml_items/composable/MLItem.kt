@@ -67,7 +67,7 @@ fun MLItem(
 
 @Preview(showBackground = true)
 @Composable
-fun ComicItemPreview(){
+fun MLItemPreview(){
    Box (modifier = Modifier.padding(16.dp)){
        MLItem(
            mlItem = MLItemModel(

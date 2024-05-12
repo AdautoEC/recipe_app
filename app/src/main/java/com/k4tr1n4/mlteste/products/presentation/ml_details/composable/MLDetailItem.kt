@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import com.k4tr1n4.mlteste.core.ui.composable.DefaultDivider
 
 @Composable
-fun MLDetail(
+fun MLDetailItem(
     label: String,
     value: String,
     hasDivider: Boolean = true
@@ -39,9 +39,9 @@ fun MLDetail(
 
 @Preview(showBackground = true)
 @Composable
-fun ComicItemPreview(){
+fun MLDetailItemPreview(){
    Box (modifier = Modifier.padding(16.dp)){
-       MLDetail(
+       MLDetailItem(
            label = "label 1",
            value = "value 1",
        )
