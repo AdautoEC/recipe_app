@@ -13,7 +13,6 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.k4tr1n4.mlteste"
         minSdk = 23
         targetSdk = 34
         versionCode = 1
@@ -23,8 +22,38 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-        buildConfigField("String", "BASE_URL", "" +
-                "\"https://api.mercadolibre.com/sites/MLB/\"")
+    }
+
+    flavorDimensions.addAll(arrayOf("app"))
+
+    productFlavors {
+        create("mlb") {
+            applicationId = "com.ml.brasil"
+            dimension = "app"
+            buildConfigField("String", "BASE_URL",
+                    "\"https://api.mercadolibre.com/sites/MLB/\"")
+            buildConfigField("String", "BASE_LANGUAGE", "\"pt\"")
+            buildConfigField("String", "BASE_COUNTRY", "\"BR\"")
+        }
+
+        create("mla") {
+            applicationId = "com.ml.argentina"
+            dimension = "app"
+            buildConfigField("String", "BASE_URL", "" +
+                    "\"https://api.mercadolibre.com/sites/MLA/\"")
+            buildConfigField("String", "BASE_LANGUAGE", "\"es\"")
+            buildConfigField("String", "BASE_COUNTRY", "\"AR\"")
+        }
+    }
+
+    sourceSets {
+        getByName("mlb") {
+            resources.srcDir("src/mlb/res")
+        }
+
+        getByName("mla") {
+            resources.srcDir("src/mlb/res")
+        }
     }
 
     buildTypes {
@@ -106,7 +135,7 @@ dependencies {
     // room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    kapt (libs.androidx.room.compiler)
+    ksp (libs.androidx.room.compiler)
 
     // test
     testImplementation(libs.turbine)

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mercado Libre</string>
+    <string name="search_screen_title">Lista de Productos</string>
+    <string name="search_screen_field_placeholder">¿Qué producto quieres buscar?</string>
+    <string name="search_screen_error_title">Atención</string>
+    <string name="search_screen_error_description">Hubo un error al acceder a la API.\nPor favor, inténtalo de nuevo más tarde.</string>
+    <string name="search_screen_error_button">Cerrar aplicación</string>
+</resources>
