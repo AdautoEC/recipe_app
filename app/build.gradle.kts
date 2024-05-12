@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.k4tr1n4.marvelcomics"
+    namespace = "com.k4tr1n4.mlteste"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.k4tr1n4.marvelcomics"
+        applicationId = "com.k4tr1n4.mlteste"
         minSdk = 23
         targetSdk = 34
         versionCode = 1
