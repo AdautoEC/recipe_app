@@ -15,5 +15,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Marvelcomics"
+rootProject.name = "MLTeste"
 include(":app")
