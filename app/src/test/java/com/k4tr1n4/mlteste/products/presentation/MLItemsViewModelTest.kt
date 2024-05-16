@@ -27,7 +27,7 @@ class MLItemsViewModelTest {
     @Before
     fun setUp() {
         MockitoAnnotations.openMocks(this)
-        useCase = GetItemsUseCase(repository)
-        viewModel = MLItemsViewModel(useCase)
+        //useCase = GetItemsUseCase(repository)
+        //viewModel = MLItemsViewModel(useCase)
     }
 }

@@ -18,9 +18,4 @@ internal class HttpRequestInterceptor : Interceptor {
     Log.d("Request - body:", request.body.toString())
     return chain.proceed(request)
   }
-  companion object {
-    private const val TS = "ts"
-    private const val API_KEY = "apikey"
-    private const val HASH = "hash"
-  }
 }

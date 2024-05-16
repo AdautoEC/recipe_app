@@ -1,0 +1,3053 @@
+{
+  "site_id": "MLB",
+  "country_default_time_zone": "GMT-03:00",
+  "query": "chocolate",
+  "paging": {
+    "total": 80334,
+    "primary_results": 1000,
+    "offset": 0,
+    "limit": 50
+  },
+  "results": [
+    {
+      "id": "MLB3523110833",
+      "title": "Bis Chocolate Branco Laka 302,4g Tripack 100,8g Cada Lacta",
+      "condition": "new",
+      "thumbnail_id": "664605-MLU75734974743_042024",
+      "catalog_product_id": "MLB27989974",
+      "listing_type_id": "gold_special",
+      "permalink": "https://www.mercadolivre.com.br/bis-chocolate-branco-laka-3024g-tripack-1008g-cada-lacta/p/MLB27989974",
+      "buying_mode": "buy_it_now",
+      "site_id": "MLB",
+      "category_id": "MLB194832",
+      "domain_id": "MLB-CHOCOLATES",
+      "thumbnail": "http://http2.mlstatic.com/D_664605-MLU75734974743_042024-I.jpg",
+      "currency_id": "BRL",
+      "order_backend": 1,
+      "price": 15.99,
+      "original_price": 19.29,
+      "sale_price": null,
+      "available_quantity": 500,
+      "official_store_id": 2707,
+      "official_store_name": "Mercado Livre",
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": true,
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": false,
+        "logistic_type": "fulfillment",
+        "mode": "me2",
+        "tags": [
+          "fulfillment"
+        ],
+        "benefits": null,
+        "promise": null
+      },
+      "stop_time": "2043-11-22T04:00:00.000Z",
+      "seller": {
+        "id": 480265022,
+        "nickname": "MERCADOLIVRE SUPERMERCADO"
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "9068403",
+          "value_name": "Lacta",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "9068403",
+              "name": "Lacta",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de produto",
+          "value_id": null,
+          "value_name": "7622210576156",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "7622210576156",
+              "struct": null,
+              "source": 385122562515662
+            }
+          ],
+          "source": 8748668969142,
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condição do item",
+          "value_id": "2230284",
+          "value_name": "Novo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Novo",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "LINE",
+          "name": "Linha",
+          "value_id": "11032055",
+          "value_name": "Bis",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "11032055",
+              "name": "Bis",
+              "struct": null,
+              "source": 4709228965570453
+            }
+          ],
+          "source": 4709228965570453,
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Comprimento da embalagem",
+          "value_id": null,
+          "value_name": "8.4 cm",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": {
+            "number": 8.4,
+            "unit": "cm"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "8.4 cm",
+              "struct": {
+                "number": 8.4,
+                "unit": "cm"
+              },
+              "source": 4333789534002961
+            }
+          ],
+          "source": 4333789534002961,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso da embalagem",
+          "value_id": null,
+          "value_name": "340 g",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": {
+            "number": 340,
+            "unit": "g"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "340 g",
+              "struct": {
+                "number": 340,
+                "unit": "g"
+              },
+              "source": 4333789534002961
+            }
+          ],
+          "source": 4333789534002961,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_CONSERVATION",
+          "name": "Conservação do produto",
+          "value_id": "10792872",
+          "value_name": "Temperatura ambiente",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "10792872",
+              "name": "Temperatura ambiente",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "SALE_FORMAT",
+          "name": "Formato de venda",
+          "value_id": "1359391",
+          "value_name": "Unidade",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "1359391",
+              "name": "Unidade",
+              "struct": null,
+              "source": 4709228965570453
+            }
+          ],
+          "source": 4709228965570453,
+          "value_type": "list"
+        },
+        {
+          "id": "UNITS_PER_PACK",
+          "name": "Unidades por kit",
+          "value_id": "2726554",
+          "value_name": "1",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2726554",
+              "name": "1",
+              "struct": null,
+              "source": 4709228965570453
+            }
+          ],
+          "source": 4709228965570453,
+          "value_type": "number"
+        },
+        {
+          "id": "UNITS_PER_PACKAGE",
+          "name": "Unidades por embalagem",
+          "value_id": "334424",
+          "value_name": "3",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "334424",
+              "name": "3",
+              "struct": null,
+              "source": 4709228965570453
+            }
+          ],
+          "source": 4709228965570453,
+          "value_type": "number"
+        },
+        {
+          "id": "UNIT_WEIGHT",
+          "name": "Peso da unidade",
+          "value_id": "26005123",
+          "value_name": "100.8 g",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Outros",
+          "value_struct": {
+            "number": 100.8,
+            "unit": "g"
+          },
+          "values": [
+            {
+              "id": "26005123",
+              "name": "100.8 g",
+              "struct": {
+                "unit": "g",
+                "number": 100.8
+              },
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "number_unit"
+        }
+      ],
+      "installments": null,
+      "winner_item_id": null,
+      "catalog_listing": true,
+      "discounts": null,
+      "promotions": [],
+      "inventory_id": "ZNAJ77304"
+    }
+  ],
+  "sort": {
+    "id": "relevance",
+    "name": "Mais relevantes"
+  },
+  "available_sorts": [
+    {
+      "id": "price_asc",
+      "name": "Menor preço"
+    },
+    {
+      "id": "price_desc",
+      "name": "Maior preço"
+    }
+  ],
+  "filters": [
+    {
+      "id": "category",
+      "name": "Categorias",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLB1423",
+          "name": "Mercearia",
+          "path_from_root": [
+            {
+              "id": "MLB1403",
+              "name": "Alimentos e Bebidas"
+            },
+            {
+              "id": "MLB1423",
+              "name": "Mercearia"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "available_filters": [
+    {
+      "id": "discount",
+      "name": "Descontos",
+      "type": "number",
+      "values": [
+        {
+          "id": "5-100",
+          "name": "Mais de 5% OFF",
+          "results": 19083
+        },
+        {
+          "id": "10-100",
+          "name": "Mais de 10% OFF",
+          "results": 12072
+        },
+        {
+          "id": "15-100",
+          "name": "Mais de 15% OFF",
+          "results": 6401
+        },
+        {
+          "id": "20-100",
+          "name": "Mais de 20% OFF",
+          "results": 4714
+        },
+        {
+          "id": "25-100",
+          "name": "Mais de 25% OFF",
+          "results": 3322
+        },
+        {
+          "id": "30-100",
+          "name": "Mais de 30% OFF",
+          "results": 2070
+        },
+        {
+          "id": "40-100",
+          "name": "Mais de 40% OFF",
+          "results": 574
+        },
+        {
+          "id": "50-100",
+          "name": "Mais de 50% OFF",
+          "results": 208
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "name": "Preço",
+      "type": "range",
+      "values": [
+        {
+          "id": "*-30.0",
+          "name": "Até R$ 30",
+          "results": 24771
+        },
+        {
+          "id": "30.0-70.0",
+          "name": "R$30 a R$70",
+          "results": 26459
+        },
+        {
+          "id": "70.0-*",
+          "name": "Mais de R$70",
+          "results": 29103
+        }
+      ]
+    },
+    {
+      "id": "accepts_mercadopago",
+      "name": "Filtro por MercadoPago",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Com Mercado Pago",
+          "results": 80334
+        }
+      ]
+    },
+    {
+      "id": "installments",
+      "name": "Pagamento",
+      "type": "text",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Parcelamento sem juros",
+          "results": 80334
+        },
+        {
+          "id": "no_interest",
+          "name": "Sem juros",
+          "results": 19257
+        }
+      ]
+    },
+    {
+      "id": "shipping",
+      "name": "Tipo de envio",
+      "type": "text",
+      "values": [
+        {
+          "id": "mercadoenvios",
+          "name": "Mercado Envios",
+          "results": 80334
+        },
+        {
+          "id": "fulfillment",
+          "name": "Full",
+          "results": 24615
+        }
+      ]
+    },
+    {
+      "id": "power_seller",
+      "name": "Filtro MercadoLíderes",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Melhores vendedores",
+          "results": 65321
+        }
+      ]
+    },
+    {
+      "id": "since",
+      "name": "Filtro por data de início",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Anunciados hoje",
+          "results": 208
+        }
+      ]
+    },
+    {
+      "id": "has_video",
+      "name": "Filtro por publicações com vídeo",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Publicações com vídeo",
+          "results": 17865
+        }
+      ]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicação com imagens",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Com fotos",
+          "results": 80334
+        }
+      ]
+    },
+    {
+      "id": "all_payment_methods_discount",
+      "name": "Descuentos para todos los medios de pago",
+      "type": "number",
+      "values": [
+        {
+          "id": "5-100",
+          "name": "Mais de 5% OFF",
+          "results": 6105
+        },
+        {
+          "id": "10-100",
+          "name": "Mais de 10% OFF",
+          "results": 4957
+        },
+        {
+          "id": "15-100",
+          "name": "Mais de 15% OFF",
+          "results": 365
+        },
+        {
+          "id": "20-100",
+          "name": "Mais de 20% OFF",
+          "results": 156
+        },
+        {
+          "id": "25-100",
+          "name": "Mais de 25% OFF",
+          "results": 104
+        },
+        {
+          "id": "30-100",
+          "name": "Mais de 30% OFF",
+          "results": 52
+        }
+      ]
+    },
+    {
+      "id": "price_campaign_id",
+      "name": "Campanha",
+      "type": "number",
+      "values": [
+        {
+          "id": "MLB34334",
+          "name": "MLB34334",
+          "results": 86
+        },
+        {
+          "id": "MLB33909",
+          "name": "MLB33909",
+          "results": 52
+        },
+        {
+          "id": "P-MLB14005114",
+          "name": "P-MLB14005114",
+          "results": 34
+        },
+        {
+          "id": "P-MLB14005126",
+          "name": "P-MLB14005126",
+          "results": 17
+        },
+        {
+          "id": "MLB34326",
+          "name": "MLB34326",
+          "results": 17
+        }
+      ]
+    },
+    {
+      "id": "shipping_cost",
+      "name": "Custo do frete",
+      "type": "text",
+      "values": [
+        {
+          "id": "free",
+          "name": "Grátis",
+          "results": 21379
+        }
+      ]
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "313266",
+          "name": "Nestlé",
+          "results": 168
+        },
+        {
+          "id": "9122884",
+          "name": "Harald",
+          "results": 156
+        },
+        {
+          "id": "8895544",
+          "name": "Milka",
+          "results": 128
+        },
+        {
+          "id": "9068397",
+          "name": "Garoto",
+          "results": 102
+        },
+        {
+          "id": "10084189",
+          "name": "Bauducco",
+          "results": 70
+        },
+        {
+          "id": "9728225",
+          "name": "Lindt",
+          "results": 64
+        },
+        {
+          "id": "9120619",
+          "name": "Flormel",
+          "results": 64
+        },
+        {
+          "id": "9068403",
+          "name": "Lacta",
+          "results": 60
+        },
+        {
+          "id": "13067631",
+          "name": "Cacau Show",
+          "results": 54
+        },
+        {
+          "id": "11031508",
+          "name": "Gold & Ko",
+          "results": 54
+        },
+        {
+          "id": "4439360",
+          "name": "M&M'S",
+          "results": 52
+        },
+        {
+          "id": "5146446",
+          "name": "Hershey's",
+          "results": 46
+        },
+        {
+          "id": "13262714",
+          "name": "Jazam",
+          "results": 46
+        },
+        {
+          "id": "9122062",
+          "name": "Mavalério",
+          "results": 44
+        },
+        {
+          "id": "4439397",
+          "name": "Arcor",
+          "results": 44
+        },
+        {
+          "id": "9770631",
+          "name": "Dori",
+          "results": 38
+        },
+        {
+          "id": "11037782",
+          "name": "Peccin",
+          "results": 38
+        },
+        {
+          "id": "10839720",
+          "name": "Kinder",
+          "results": 38
+        },
+        {
+          "id": "11034258",
+          "name": "Kopenhagen",
+          "results": 36
+        },
+        {
+          "id": "213861",
+          "name": "Bel",
+          "results": 32
+        },
+        {
+          "id": "13396366",
+          "name": "Food4Fit",
+          "results": 32
+        },
+        {
+          "id": "9126290",
+          "name": "Neugebauer",
+          "results": 28
+        },
+        {
+          "id": "13262728",
+          "name": "Luckau",
+          "results": 28
+        },
+        {
+          "id": "13262689",
+          "name": "Callebaut",
+          "results": 28
+        },
+        {
+          "id": "12956054",
+          "name": "Haoma",
+          "results": 28
+        },
+        {
+          "id": "9728228",
+          "name": "Toblerone",
+          "results": 26
+        },
+        {
+          "id": "10839714",
+          "name": "Montevérgine",
+          "results": 26
+        },
+        {
+          "id": "12128989",
+          "name": "Genuine",
+          "results": 24
+        },
+        {
+          "id": "11031490",
+          "name": "Nugali",
+          "results": 24
+        },
+        {
+          "id": "2856563",
+          "name": "Trento",
+          "results": 22
+        },
+        {
+          "id": "225672",
+          "name": "Linea",
+          "results": 22
+        },
+        {
+          "id": "12230513",
+          "name": "Melken",
+          "results": 22
+        },
+        {
+          "id": "11031499",
+          "name": "Diatt",
+          "results": 22
+        },
+        {
+          "id": "10969867",
+          "name": "Belive",
+          "results": 22
+        },
+        {
+          "id": "9126086",
+          "name": "Banana Brasil",
+          "results": 18
+        },
+        {
+          "id": "9090604",
+          "name": "Lowçucar",
+          "results": 18
+        },
+        {
+          "id": "2786003",
+          "name": "Ferrero",
+          "results": 18
+        },
+        {
+          "id": "9068413",
+          "name": "Marilan",
+          "results": 16
+        },
+        {
+          "id": "9068402",
+          "name": "Vitao",
+          "results": 16
+        },
+        {
+          "id": "12355325",
+          "name": "Barry Callebaut",
+          "results": 16
+        },
+        {
+          "id": "11939333",
+          "name": "Bold Snacks",
+          "results": 16
+        },
+        {
+          "id": "11031511",
+          "name": "Ferrero Rocher",
+          "results": 16
+        },
+        {
+          "id": "9848783",
+          "name": "Ovomaltine",
+          "results": 14
+        },
+        {
+          "id": "9090814",
+          "name": "Nutry",
+          "results": 14
+        },
+        {
+          "id": "8226314",
+          "name": "Nescafé Dolce Gusto",
+          "results": 14
+        },
+        {
+          "id": "11031513",
+          "name": "Only4",
+          "results": 14
+        },
+        {
+          "id": "10853741",
+          "name": "Nutella",
+          "results": 14
+        },
+        {
+          "id": "10852540",
+          "name": "Naked Nuts",
+          "results": 14
+        },
+        {
+          "id": "17275",
+          "name": "Mars",
+          "results": 12
+        },
+        {
+          "id": "13022446",
+          "name": "Mais Mu",
+          "results": 12
+        },
+        {
+          "id": "11513481",
+          "name": "Bis",
+          "results": 12
+        },
+        {
+          "id": "11031522",
+          "name": "Suflair",
+          "results": 12
+        },
+        {
+          "id": "10839713",
+          "name": "Perugina",
+          "results": 12
+        },
+        {
+          "id": "9121187",
+          "name": "Havanna",
+          "results": 10
+        },
+        {
+          "id": "19699456",
+          "name": "Warabu",
+          "results": 10
+        },
+        {
+          "id": "14767092",
+          "name": "Zeromilk",
+          "results": 10
+        },
+        {
+          "id": "14275864",
+          "name": "Jacques",
+          "results": 10
+        },
+        {
+          "id": "13407165",
+          "name": "Harts",
+          "results": 10
+        },
+        {
+          "id": "13027228",
+          "name": "Suisse Chocolat",
+          "results": 10
+        },
+        {
+          "id": "11031521",
+          "name": "Twix",
+          "results": 10
+        },
+        {
+          "id": "11031491",
+          "name": "Goplana",
+          "results": 10
+        },
+        {
+          "id": "11014658",
+          "name": "Baggio",
+          "results": 10
+        },
+        {
+          "id": "9215342",
+          "name": "MasterFoods",
+          "results": 8
+        },
+        {
+          "id": "9122993",
+          "name": "Carob House",
+          "results": 8
+        },
+        {
+          "id": "9122064",
+          "name": "Dr. Oetker",
+          "results": 8
+        },
+        {
+          "id": "9118892",
+          "name": "Zaya",
+          "results": 8
+        },
+        {
+          "id": "9068396",
+          "name": "Vitalin",
+          "results": 8
+        },
+        {
+          "id": "5259374",
+          "name": "Top",
+          "results": 8
+        },
+        {
+          "id": "15443150",
+          "name": "Ovisco",
+          "results": 8
+        },
+        {
+          "id": "15423633",
+          "name": "Bolibol",
+          "results": 8
+        },
+        {
+          "id": "14872507",
+          "name": "Divine",
+          "results": 8
+        },
+        {
+          "id": "14775731",
+          "name": "Laciella",
+          "results": 8
+        },
+        {
+          "id": "13484848",
+          "name": "Savors",
+          "results": 8
+        },
+        {
+          "id": "13475980",
+          "name": "Erlan",
+          "results": 8
+        },
+        {
+          "id": "13336103",
+          "name": "Ritter Sport",
+          "results": 8
+        },
+        {
+          "id": "13020387",
+          "name": "Wheyviv",
+          "results": 8
+        },
+        {
+          "id": "12234814",
+          "name": "Junco",
+          "results": 8
+        },
+        {
+          "id": "12228575",
+          "name": "Alispec",
+          "results": 8
+        },
+        {
+          "id": "11942577",
+          "name": "Talento",
+          "results": 8
+        },
+        {
+          "id": "11112253",
+          "name": "Dolce Gusto",
+          "results": 8
+        },
+        {
+          "id": "11031509",
+          "name": "Classic",
+          "results": 8
+        },
+        {
+          "id": "1095052",
+          "name": "Toddy",
+          "results": 8
+        },
+        {
+          "id": "10840070",
+          "name": "Santa Edwiges",
+          "results": 8
+        },
+        {
+          "id": "10839718",
+          "name": "Tortuguita",
+          "results": 8
+        },
+        {
+          "id": "9120722",
+          "name": "Supino",
+          "results": 6
+        },
+        {
+          "id": "9069425",
+          "name": "biO2",
+          "results": 6
+        },
+        {
+          "id": "7243469",
+          "name": "+Mu",
+          "results": 6
+        },
+        {
+          "id": "4439419",
+          "name": "Snickers",
+          "results": 6
+        },
+        {
+          "id": "2965633",
+          "name": "DaVinci",
+          "results": 6
+        },
+        {
+          "id": "218699",
+          "name": "Member's Mark",
+          "results": 6
+        },
+        {
+          "id": "14775746",
+          "name": "Moranguete",
+          "results": 6
+        },
+        {
+          "id": "145705",
+          "name": "Rock",
+          "results": 6
+        },
+        {
+          "id": "14354376",
+          "name": "Maltesers",
+          "results": 6
+        },
+        {
+          "id": "13682150",
+          "name": "Cobertop",
+          "results": 6
+        },
+        {
+          "id": "13455535",
+          "name": "Flavor House",
+          "results": 6
+        },
+        {
+          "id": "13388721",
+          "name": "Riclan",
+          "results": 6
+        },
+        {
+          "id": "13032112",
+          "name": "Cookoa",
+          "results": 6
+        },
+        {
+          "id": "13031283",
+          "name": "Cafe Italle",
+          "results": 6
+        },
+        {
+          "id": "11802845",
+          "name": "Nucita",
+          "results": 6
+        },
+        {
+          "id": "11736642",
+          "name": "Dr. Peanut",
+          "results": 6
+        },
+        {
+          "id": "1095060",
+          "name": "Capresso",
+          "results": 6
+        },
+        {
+          "id": "10857042",
+          "name": "Nescau",
+          "results": 6
+        },
+        {
+          "id": "10850361",
+          "name": "Kitkat",
+          "results": 6
+        },
+        {
+          "id": "10840151",
+          "name": "Oreo",
+          "results": 6
+        },
+        {
+          "id": "9864533",
+          "name": "Java",
+          "results": 4
+        },
+        {
+          "id": "9124187",
+          "name": "Ritter",
+          "results": 4
+        },
+        {
+          "id": "9122015",
+          "name": "Mix",
+          "results": 4
+        },
+        {
+          "id": "9120874",
+          "name": "Marvi",
+          "results": 4
+        },
+        {
+          "id": "9109723",
+          "name": "Fit Food",
+          "results": 4
+        },
+        {
+          "id": "9068409",
+          "name": "Gullón",
+          "results": 4
+        },
+        {
+          "id": "9068404",
+          "name": "Dona Benta",
+          "results": 4
+        },
+        {
+          "id": "8895531",
+          "name": "Schär",
+          "results": 4
+        },
+        {
+          "id": "8895385",
+          "name": "Mondelez",
+          "results": 4
+        },
+        {
+          "id": "8166777",
+          "name": "Tres Corações",
+          "results": 4
+        },
+        {
+          "id": "6821564",
+          "name": "Olvebra",
+          "results": 4
+        },
+        {
+          "id": "4902164",
+          "name": "Amma",
+          "results": 4
+        },
+        {
+          "id": "3402839",
+          "name": "Alpino",
+          "results": 4
+        },
+        {
+          "id": "2786862",
+          "name": "Ouro",
+          "results": 4
+        },
+        {
+          "id": "2645264",
+          "name": "Selecta",
+          "results": 4
+        },
+        {
+          "id": "18402427",
+          "name": "Cacow",
+          "results": 4
+        },
+        {
+          "id": "16125682",
+          "name": "Chocon'Up",
+          "results": 4
+        },
+        {
+          "id": "16002353",
+          "name": "P&P Fit",
+          "results": 4
+        },
+        {
+          "id": "15073746",
+          "name": "Guarda-chuva",
+          "results": 4
+        },
+        {
+          "id": "14995576",
+          "name": "Jazam Alimentos",
+          "results": 4
+        },
+        {
+          "id": "14770152",
+          "name": "Super Vegan",
+          "results": 4
+        },
+        {
+          "id": "14275858",
+          "name": "Maitre Truffout",
+          "results": 4
+        },
+        {
+          "id": "13945789",
+          "name": "Belgian",
+          "results": 4
+        },
+        {
+          "id": "13809548",
+          "name": "Colian",
+          "results": 4
+        },
+        {
+          "id": "13588617",
+          "name": "DaBella",
+          "results": 4
+        },
+        {
+          "id": "13443001",
+          "name": "Bevan",
+          "results": 4
+        },
+        {
+          "id": "13406612",
+          "name": "Souvenir",
+          "results": 4
+        },
+        {
+          "id": "13406199",
+          "name": "Chocolife",
+          "results": 4
+        },
+        {
+          "id": "13325062",
+          "name": "Gran Chef",
+          "results": 4
+        },
+        {
+          "id": "13262716",
+          "name": "Ki-Kakau",
+          "results": 4
+        },
+        {
+          "id": "13230071",
+          "name": "Cacau Foods",
+          "results": 4
+        },
+        {
+          "id": "13079558",
+          "name": "Bianca",
+          "results": 4
+        },
+        {
+          "id": "13032442",
+          "name": "Prinknut",
+          "results": 4
+        },
+        {
+          "id": "13021411",
+          "name": "La Ganexa",
+          "results": 4
+        },
+        {
+          "id": "13021354",
+          "name": "Amendomel",
+          "results": 4
+        },
+        {
+          "id": "12240460",
+          "name": "Italle",
+          "results": 4
+        },
+        {
+          "id": "11949156",
+          "name": "Bold",
+          "results": 4
+        },
+        {
+          "id": "11900913",
+          "name": "Danke",
+          "results": 4
+        },
+        {
+          "id": "11510752",
+          "name": "Pura Vida",
+          "results": 4
+        },
+        {
+          "id": "11314668",
+          "name": "Vabene",
+          "results": 4
+        },
+        {
+          "id": "11114313",
+          "name": "Disqueti",
+          "results": 4
+        },
+        {
+          "id": "11031512",
+          "name": "Crunch",
+          "results": 4
+        },
+        {
+          "id": "11031505",
+          "name": "Pan",
+          "results": 4
+        },
+        {
+          "id": "11031503",
+          "name": "Guylian",
+          "results": 4
+        },
+        {
+          "id": "11031487",
+          "name": "Raffaello",
+          "results": 4
+        },
+        {
+          "id": "11031484",
+          "name": "The Belgian",
+          "results": 4
+        },
+        {
+          "id": "1099300",
+          "name": "Renata",
+          "results": 4
+        },
+        {
+          "id": "10839719",
+          "name": "Baci",
+          "results": 4
+        },
+        {
+          "id": "9887360",
+          "name": "Zero",
+          "results": 2
+        },
+        {
+          "id": "9810717",
+          "name": "Itamaraty",
+          "results": 2
+        },
+        {
+          "id": "9782214",
+          "name": "Butter Toffees",
+          "results": 2
+        },
+        {
+          "id": "9728227",
+          "name": "Chokolah",
+          "results": 2
+        },
+        {
+          "id": "9150095",
+          "name": "Tres",
+          "results": 2
+        },
+        {
+          "id": "9126289",
+          "name": "Haribo",
+          "results": 2
+        },
+        {
+          "id": "9126286",
+          "name": "Minnas",
+          "results": 2
+        },
+        {
+          "id": "9122238",
+          "name": "Monin",
+          "results": 2
+        },
+        {
+          "id": "9122063",
+          "name": "Arcólor",
+          "results": 2
+        },
+        {
+          "id": "9122012",
+          "name": "Mil Cores",
+          "results": 2
+        },
+        {
+          "id": "9121191",
+          "name": "Mu-Mu",
+          "results": 2
+        },
+        {
+          "id": "9120876",
+          "name": "Parmalat",
+          "results": 2
+        },
+        {
+          "id": "9120875",
+          "name": "Hué",
+          "results": 2
+        },
+        {
+          "id": "9118854",
+          "name": "Seu Divino",
+          "results": 2
+        },
+        {
+          "id": "9118852",
+          "name": "Barion",
+          "results": 2
+        },
+        {
+          "id": "9118837",
+          "name": "Fleischmann",
+          "results": 2
+        },
+        {
+          "id": "9118835",
+          "name": "Panco",
+          "results": 2
+        },
+        {
+          "id": "9071613",
+          "name": "Itambé",
+          "results": 2
+        },
+        {
+          "id": "9068415",
+          "name": "Kobber",
+          "results": 2
+        },
+        {
+          "id": "9068414",
+          "name": "Aminna",
+          "results": 2
+        },
+        {
+          "id": "9068406",
+          "name": "Piraquê",
+          "results": 2
+        },
+        {
+          "id": "9068398",
+          "name": "Kellogg's",
+          "results": 2
+        },
+        {
+          "id": "8994522",
+          "name": "Trío",
+          "results": 2
+        },
+        {
+          "id": "8897549",
+          "name": "Juan Valdez",
+          "results": 2
+        },
+        {
+          "id": "8895547",
+          "name": "Bon o Bon",
+          "results": 2
+        },
+        {
+          "id": "79122",
+          "name": "Drean",
+          "results": 2
+        },
+        {
+          "id": "7157476",
+          "name": "Nobre",
+          "results": 2
+        },
+        {
+          "id": "6810389",
+          "name": "Ou",
+          "results": 2
+        },
+        {
+          "id": "6798977",
+          "name": "Dr. Schär",
+          "results": 2
+        },
+        {
+          "id": "6617935",
+          "name": "Monalisa",
+          "results": 2
+        },
+        {
+          "id": "6340787",
+          "name": "Camp",
+          "results": 2
+        },
+        {
+          "id": "6125529",
+          "name": "Jasmine",
+          "results": 2
+        },
+        {
+          "id": "6112486",
+          "name": "Harry Potter",
+          "results": 2
+        },
+        {
+          "id": "5895592",
+          "name": "All Protein",
+          "results": 2
+        },
+        {
+          "id": "5738279",
+          "name": "Growth Supplements",
+          "results": 2
+        },
+        {
+          "id": "5435978",
+          "name": "Dux Nutrition",
+          "results": 2
+        },
+        {
+          "id": "5435946",
+          "name": "Equaliv",
+          "results": 2
+        },
+        {
+          "id": "5262163",
+          "name": "Native",
+          "results": 2
+        },
+        {
+          "id": "5133187",
+          "name": "Essential Nutrition",
+          "results": 2
+        },
+        {
+          "id": "4965183",
+          "name": "Natural Life",
+          "results": 2
+        },
+        {
+          "id": "4831670",
+          "name": "Rocky Mountain",
+          "results": 2
+        },
+        {
+          "id": "430902",
+          "name": "Carrefour",
+          "results": 2
+        },
+        {
+          "id": "38740",
+          "name": "Orion",
+          "results": 2
+        },
+        {
+          "id": "3636730",
+          "name": "3 Corações",
+          "results": 2
+        },
+        {
+          "id": "3169127",
+          "name": "FMB",
+          "results": 2
+        },
+        {
+          "id": "2570668",
+          "name": "Roma",
+          "results": 2
+        },
+        {
+          "id": "2256456",
+          "name": "M&M",
+          "results": 2
+        },
+        {
+          "id": "20789",
+          "name": "Shark",
+          "results": 2
+        },
+        {
+          "id": "19640",
+          "name": "Lotus",
+          "results": 2
+        },
+        {
+          "id": "17517446",
+          "name": "Batom",
+          "results": 2
+        },
+        {
+          "id": "16566524",
+          "name": "Meiji",
+          "results": 2
+        },
+        {
+          "id": "16257849",
+          "name": "Dizioli",
+          "results": 2
+        },
+        {
+          "id": "16200873",
+          "name": "Athletica",
+          "results": 2
+        },
+        {
+          "id": "16038167",
+          "name": "Pirulin",
+          "results": 2
+        },
+        {
+          "id": "15877211",
+          "name": "BM Utilidades",
+          "results": 2
+        },
+        {
+          "id": "15443043",
+          "name": "Davinci Gourmet",
+          "results": 2
+        },
+        {
+          "id": "15138979",
+          "name": "Stevia",
+          "results": 2
+        },
+        {
+          "id": "14987857",
+          "name": "Java Chocolates",
+          "results": 2
+        },
+        {
+          "id": "14817242",
+          "name": "Coloreti",
+          "results": 2
+        },
+        {
+          "id": "14810423",
+          "name": "Confeiteiro",
+          "results": 2
+        },
+        {
+          "id": "14799503",
+          "name": "Sorini",
+          "results": 2
+        },
+        {
+          "id": "14794370",
+          "name": "Prado Protein",
+          "results": 2
+        },
+        {
+          "id": "14793081",
+          "name": "Iceberg Chef",
+          "results": 2
+        },
+        {
+          "id": "14790818",
+          "name": "Suisse",
+          "results": 2
+        },
+        {
+          "id": "14779317",
+          "name": "Artesanal",
+          "results": 2
+        },
+        {
+          "id": "14775683",
+          "name": "Borussia",
+          "results": 2
+        },
+        {
+          "id": "14328245",
+          "name": "Marisbel",
+          "results": 2
+        },
+        {
+          "id": "14319781",
+          "name": "Marvi Professional",
+          "results": 2
+        },
+        {
+          "id": "14275819",
+          "name": "Salware",
+          "results": 2
+        },
+        {
+          "id": "13779722",
+          "name": "Lacreme",
+          "results": 2
+        },
+        {
+          "id": "13767943",
+          "name": "Chococandy",
+          "results": 2
+        },
+        {
+          "id": "13730061",
+          "name": "Pop Tarts",
+          "results": 2
+        },
+        {
+          "id": "13590093",
+          "name": "Fazenda de Minas",
+          "results": 2
+        },
+        {
+          "id": "13584855",
+          "name": "Wizarding World",
+          "results": 2
+        },
+        {
+          "id": "13528073",
+          "name": "Norcau",
+          "results": 2
+        },
+        {
+          "id": "13519533",
+          "name": "Royal Family",
+          "results": 2
+        },
+        {
+          "id": "13498568",
+          "name": "Alca Foods",
+          "results": 2
+        },
+        {
+          "id": "13491598",
+          "name": "My Dream",
+          "results": 2
+        },
+        {
+          "id": "13469349",
+          "name": "Vendin",
+          "results": 2
+        },
+        {
+          "id": "13444707",
+          "name": "Color Andina Foods",
+          "results": 2
+        },
+        {
+          "id": "13423932",
+          "name": "Betterpb",
+          "results": 2
+        },
+        {
+          "id": "13419958",
+          "name": "Sora Alimentos",
+          "results": 2
+        },
+        {
+          "id": "13336141",
+          "name": "WheyViv Fit",
+          "results": 2
+        },
+        {
+          "id": "13325052",
+          "name": "Duas Rodas",
+          "results": 2
+        },
+        {
+          "id": "13320130",
+          "name": "Ingredientes Online",
+          "results": 2
+        },
+        {
+          "id": "13318400",
+          "name": "Absolut Nutrition",
+          "results": 2
+        },
+        {
+          "id": "13260315",
+          "name": "Jupará Chocolates",
+          "results": 2
+        },
+        {
+          "id": "131542",
+          "name": "Probiótica",
+          "results": 2
+        },
+        {
+          "id": "131492",
+          "name": "Integralmédica",
+          "results": 2
+        },
+        {
+          "id": "13122418",
+          "name": "Dobro",
+          "results": 2
+        },
+        {
+          "id": "13031918",
+          "name": "Naturatta",
+          "results": 2
+        },
+        {
+          "id": "13026887",
+          "name": "Divinut",
+          "results": 2
+        },
+        {
+          "id": "13020394",
+          "name": "Griesson",
+          "results": 2
+        },
+        {
+          "id": "13020135",
+          "name": "Danilla",
+          "results": 2
+        },
+        {
+          "id": "13010073",
+          "name": "Raizes Do Campo",
+          "results": 2
+        },
+        {
+          "id": "12894730",
+          "name": "Cargill",
+          "results": 2
+        },
+        {
+          "id": "12709821",
+          "name": "Zaytas",
+          "results": 2
+        },
+        {
+          "id": "12610493",
+          "name": "Atlhetica",
+          "results": 2
+        },
+        {
+          "id": "12231516",
+          "name": "Embaré",
+          "results": 2
+        },
+        {
+          "id": "12086646",
+          "name": "Putz!",
+          "results": 2
+        },
+        {
+          "id": "12064882",
+          "name": "Cailler",
+          "results": 2
+        },
+        {
+          "id": "11510749",
+          "name": "Witor's",
+          "results": 2
+        },
+        {
+          "id": "11510038",
+          "name": "Qualitá",
+          "results": 2
+        },
+        {
+          "id": "11111764",
+          "name": "Brown Cow",
+          "results": 2
+        },
+        {
+          "id": "11051955",
+          "name": "GranoSquare",
+          "results": 2
+        },
+        {
+          "id": "11037840",
+          "name": "Trakinas",
+          "results": 2
+        },
+        {
+          "id": "11037837",
+          "name": "Passatempo",
+          "results": 2
+        },
+        {
+          "id": "11037821",
+          "name": "Doce Vida",
+          "results": 2
+        },
+        {
+          "id": "11037806",
+          "name": "Mabel",
+          "results": 2
+        },
+        {
+          "id": "11037791",
+          "name": "Chocolícia",
+          "results": 2
+        },
+        {
+          "id": "11037784",
+          "name": "Bahlsen",
+          "results": 2
+        },
+        {
+          "id": "11037768",
+          "name": "Calipso",
+          "results": 2
+        },
+        {
+          "id": "11034257",
+          "name": "Bicafé",
+          "results": 2
+        },
+        {
+          "id": "11031515",
+          "name": "Vieira",
+          "results": 2
+        },
+        {
+          "id": "11031507",
+          "name": "Lollo",
+          "results": 2
+        },
+        {
+          "id": "11031483",
+          "name": "Galak",
+          "results": 2
+        },
+        {
+          "id": "11031482",
+          "name": "Schogetten",
+          "results": 2
+        },
+        {
+          "id": "11030138",
+          "name": "Docile",
+          "results": 2
+        },
+        {
+          "id": "11030130",
+          "name": "Fini",
+          "results": 2
+        },
+        {
+          "id": "11030129",
+          "name": "Freegells",
+          "results": 2
+        },
+        {
+          "id": "10991679",
+          "name": "Sustagen",
+          "results": 2
+        },
+        {
+          "id": "10858410",
+          "name": "Zentis",
+          "results": 2
+        },
+        {
+          "id": "10857041",
+          "name": "Toddynho",
+          "results": 2
+        },
+        {
+          "id": "10854688",
+          "name": "Dadinho",
+          "results": 2
+        },
+        {
+          "id": "10854687",
+          "name": "Power 1 One",
+          "results": 2
+        },
+        {
+          "id": "10850080",
+          "name": "Kodilar",
+          "results": 2
+        },
+        {
+          "id": "10844232",
+          "name": "Triângulo Mineiro",
+          "results": 2
+        },
+        {
+          "id": "10627691",
+          "name": "Suavipan",
+          "results": 2
+        },
+        {
+          "id": "10583445",
+          "name": "Celivita",
+          "results": 2
+        }
+      ]
+    },
+    {
+      "id": "FLAVOR",
+      "name": "Sabor",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "2517712",
+          "name": "Chocolate",
+          "results": 12316
+        },
+        {
+          "id": "11040179",
+          "name": "Ao Leite",
+          "results": 4418
+        },
+        {
+          "id": "5790004",
+          "name": "Amargo",
+          "results": 1704
+        },
+        {
+          "id": "6519167",
+          "name": "Chocolate branco",
+          "results": 1635
+        },
+        {
+          "id": "7675900",
+          "name": "Chocolate ao leite",
+          "results": 1461
+        },
+        {
+          "id": "9095793",
+          "name": "Branco",
+          "results": 904
+        },
+        {
+          "id": "6104168",
+          "name": "Cacau",
+          "results": 591
+        },
+        {
+          "id": "2472069",
+          "name": "Morango",
+          "results": 591
+        },
+        {
+          "id": "18157071",
+          "name": "Meio Amargo",
+          "results": 521
+        },
+        {
+          "id": "5331274",
+          "name": "Avelã",
+          "results": 452
+        },
+        {
+          "id": "3194337",
+          "name": "Leite",
+          "results": 417
+        },
+        {
+          "id": "9067811",
+          "name": "Menta",
+          "results": 347
+        },
+        {
+          "id": "12894727",
+          "name": "Chocolate Meio Amargo",
+          "results": 347
+        },
+        {
+          "id": "2517713",
+          "name": "Baunilha",
+          "results": 243
+        },
+        {
+          "id": "18614392",
+          "name": "Sortidos",
+          "results": 243
+        },
+        {
+          "id": "9779844",
+          "name": "Chocolate com avelã",
+          "results": 208
+        },
+        {
+          "id": "3580311",
+          "name": "Caramelo",
+          "results": 208
+        },
+        {
+          "id": "26771767",
+          "name": "Chocolate",
+          "results": 208
+        },
+        {
+          "id": "2431678",
+          "name": "Banana",
+          "results": 208
+        },
+        {
+          "id": "3966014",
+          "name": "Doce de leite",
+          "results": 173
+        },
+        {
+          "id": "1233546",
+          "name": "Cookies",
+          "results": 173
+        },
+        {
+          "id": "11040068",
+          "name": "Brownie",
+          "results": 173
+        },
+        {
+          "id": "9095811",
+          "name": "Tradicional",
+          "results": 139
+        },
+        {
+          "id": "2517714",
+          "name": "Coco",
+          "results": 139
+        },
+        {
+          "id": "19342891",
+          "name": "Chocolate",
+          "results": 139
+        },
+        {
+          "id": "12103017",
+          "name": "Pistache",
+          "results": 139
+        },
+        {
+          "id": "11028309",
+          "name": "Brigadeiro",
+          "results": 139
+        },
+        {
+          "id": "10040396",
+          "name": "Trufa",
+          "results": 139
+        },
+        {
+          "id": "9068386",
+          "name": "Castanha de caju",
+          "results": 104
+        },
+        {
+          "id": "5633924",
+          "name": "Original",
+          "results": 104
+        },
+        {
+          "id": "4256481",
+          "name": "Café",
+          "results": 104
+        },
+        {
+          "id": "25801268",
+          "name": "Vanilla",
+          "results": 104
+        },
+        {
+          "id": "21011859",
+          "name": "AMBOS",
+          "results": 104
+        },
+        {
+          "id": "11040036",
+          "name": "Oreo",
+          "results": 104
+        },
+        {
+          "id": "9863083",
+          "name": "Pé de Moleque",
+          "results": 69
+        },
+        {
+          "id": "9237230",
+          "name": "Cupuaçu",
+          "results": 69
+        },
+        {
+          "id": "9068335",
+          "name": "Gotas de chocolate",
+          "results": 69
+        },
+        {
+          "id": "7256548",
+          "name": "Paçoca",
+          "results": 69
+        },
+        {
+          "id": "7256547",
+          "name": "Napolitano",
+          "results": 69
+        },
+        {
+          "id": "5639233",
+          "name": "Amendoim",
+          "results": 69
+        },
+        {
+          "id": "5060310",
+          "name": "Cookies & cream",
+          "results": 69
+        },
+        {
+          "id": "3953556",
+          "name": "Cereja",
+          "results": 69
+        },
+        {
+          "id": "26899090",
+          "name": "Chocolate Crocante",
+          "results": 69
+        },
+        {
+          "id": "25801269",
+          "name": "Chocolate ao leite",
+          "results": 69
+        },
+        {
+          "id": "2130465",
+          "name": "Laranja",
+          "results": 69
+        },
+        {
+          "id": "18850237",
+          "name": "Chocolate e avelã",
+          "results": 69
+        },
+        {
+          "id": "18850232",
+          "name": "Morango cobertura chocolate",
+          "results": 69
+        },
+        {
+          "id": "17890225",
+          "name": "Creme de Avelã com Cacau",
+          "results": 69
+        },
+        {
+          "id": "16271410",
+          "name": "leitinho",
+          "results": 69
+        },
+        {
+          "id": "13484745",
+          "name": "Leite de Coco",
+          "results": 69
+        },
+        {
+          "id": "13124190",
+          "name": "Chocolate belga",
+          "results": 69
+        },
+        {
+          "id": "12894602",
+          "name": "Chocolate com Caramelo",
+          "results": 69
+        },
+        {
+          "id": "12240649",
+          "name": "Pasta de amendoim",
+          "results": 69
+        },
+        {
+          "id": "12183963",
+          "name": "Brigadeiro",
+          "results": 69
+        },
+        {
+          "id": "12103026",
+          "name": "Caramelo  salgado",
+          "results": 69
+        },
+        {
+          "id": "11815774",
+          "name": "Marshmallow",
+          "results": 69
+        },
+        {
+          "id": "11642649",
+          "name": "Cookies n cream",
+          "results": 69
+        },
+        {
+          "id": "11570104",
+          "name": "Beijinho",
+          "results": 69
+        },
+        {
+          "id": "11148228",
+          "name": "Cookies and cream",
+          "results": 69
+        },
+        {
+          "id": "11040148",
+          "name": "Chocolate com Amendoim",
+          "results": 69
+        },
+        {
+          "id": "10627788",
+          "name": "Sortido",
+          "results": 69
+        },
+        {
+          "id": "9810850",
+          "name": "Chocolate com Menta",
+          "results": 34
+        },
+        {
+          "id": "9574968",
+          "name": "Coco e chocolate",
+          "results": 34
+        },
+        {
+          "id": "9574947",
+          "name": "Fubá",
+          "results": 34
+        },
+        {
+          "id": "9214488",
+          "name": "Aveia",
+          "results": 34
+        },
+        {
+          "id": "9157603",
+          "name": "Milho",
+          "results": 34
+        },
+        {
+          "id": "9090805",
+          "name": "Aveia, banana e mel",
+          "results": 34
+        },
+        {
+          "id": "9090795",
+          "name": "Trufa de chocolate",
+          "results": 34
+        },
+        {
+          "id": "9090794",
+          "name": "Coco cobertura chocolate",
+          "results": 34
+        },
+        {
+          "id": "9090775",
+          "name": "Cobertura Chocolate",
+          "results": 34
+        },
+        {
+          "id": "9068393",
+          "name": "Damasco com chocolate",
+          "results": 34
+        },
+        {
+          "id": "9068392",
+          "name": "Chocolate com gotas de chocolate",
+          "results": 34
+        },
+        {
+          "id": "9068383",
+          "name": "Baunilha com gotas de chocolate ao leite",
+          "results": 34
+        },
+        {
+          "id": "9068371",
+          "name": "Laka",
+          "results": 34
+        },
+        {
+          "id": "9067781",
+          "name": "Hortelã",
+          "results": 34
+        },
+        {
+          "id": "8897466",
+          "name": "Clássico",
+          "results": 34
+        },
+        {
+          "id": "7678490",
+          "name": "Mousse de chocolate",
+          "results": 34
+        },
+        {
+          "id": "7247354",
+          "name": "Alecrim",
+          "results": 34
+        },
+        {
+          "id": "6972676",
+          "name": "Baunilha e chocolate",
+          "results": 34
+        },
+        {
+          "id": "6948272",
+          "name": "Dark chocolate",
+          "results": 34
+        },
+        {
+          "id": "6723539",
+          "name": "Churros",
+          "results": 34
+        },
+        {
+          "id": "6723537",
+          "name": "Double chocolate",
+          "results": 34
+        },
+        {
+          "id": "5331350",
+          "name": "Triple chocolate",
+          "results": 34
+        },
+        {
+          "id": "2749075",
+          "name": "Framboesa",
+          "results": 34
+        },
+        {
+          "id": "22960501",
+          "name": "Chocolate com baunilha",
+          "results": 34
+        },
+        {
+          "id": "22057188",
+          "name": "Sem sabor",
+          "results": 34
+        },
+        {
+          "id": "20676601",
+          "name": "Baunilha",
+          "results": 34
+        },
+        {
+          "id": "19989629",
+          "name": "Pão de mel com cobertura de chocolate ao leite",
+          "results": 34
+        },
+        {
+          "id": "18500909",
+          "name": "Beijinho",
+          "results": 34
+        },
+        {
+          "id": "18445084",
+          "name": "Característico",
+          "results": 34
+        },
+        {
+          "id": "17968803",
+          "name": "Sem sabor",
+          "results": 34
+        },
+        {
+          "id": "17689494",
+          "name": "Duplo Chocolate",
+          "results": 34
+        },
+        {
+          "id": "17319887",
+          "name": "Crème Brûlée",
+          "results": 34
+        },
+        {
+          "id": "16938600",
+          "name": "Creme",
+          "results": 34
+        },
+        {
+          "id": "16184047",
+          "name": "Castanha-de-Caju",
+          "results": 34
+        },
+        {
+          "id": "14792853",
+          "name": "Trufado",
+          "results": 34
+        },
+        {
+          "id": "13854288",
+          "name": "Amêndoas",
+          "results": 34
+        },
+        {
+          "id": "13421973",
+          "name": "Crocante",
+          "results": 34
+        },
+        {
+          "id": "13313077",
+          "name": "Doce",
+          "results": 34
+        },
+        {
+          "id": "13309449",
+          "name": "Frutas sortidas",
+          "results": 34
+        },
+        {
+          "id": "13256458",
+          "name": "Sortido",
+          "results": 34
+        },
+        {
+          "id": "13063659",
+          "name": "Chocolate com Amendoim",
+          "results": 34
+        },
+        {
+          "id": "13031266",
+          "name": "Caramelo e Flor de Sal",
+          "results": 34
+        },
+        {
+          "id": "13014497",
+          "name": "Coco com Chocolate",
+          "results": 34
+        },
+        {
+          "id": "12957402",
+          "name": "Castanhas",
+          "results": 34
+        },
+        {
+          "id": "12954596",
+          "name": "Chocolate Amargo",
+          "results": 34
+        },
+        {
+          "id": "12943823",
+          "name": "Crocante de Energia",
+          "results": 34
+        },
+        {
+          "id": "12893450",
+          "name": "Mista",
+          "results": 34
+        },
+        {
+          "id": "12720553",
+          "name": "Gotas de Chocolate 70%",
+          "results": 34
+        },
+        {
+          "id": "12471647",
+          "name": "Frutas vermelhas",
+          "results": 34
+        },
+        {
+          "id": "12297650",
+          "name": "Azeitona",
+          "results": 34
+        },
+        {
+          "id": "12099240",
+          "name": "Chocolate com coco",
+          "results": 34
+        },
+        {
+          "id": "11815763",
+          "name": "Cheesecake de morango",
+          "results": 34
+        },
+        {
+          "id": "11372908",
+          "name": "Paçoquinha",
+          "results": 34
+        },
+        {
+          "id": "11047208",
+          "name": "Açaí, Banana e Pasta de Amendoim Cobertura Chocolate Meio Amargo",
+          "results": 34
+        },
+        {
+          "id": "11047124",
+          "name": "Banana Cobertura Chocolate Branco",
+          "results": 34
+        },
+        {
+          "id": "11047108",
+          "name": "Banana Cobertura Chocolate ao Leite",
+          "results": 34
+        },
+        {
+          "id": "11045274",
+          "name": "Baunilha com Gotas de Chocolate",
+          "results": 34
+        },
+        {
+          "id": "11040244",
+          "name": "Leite com Gotas de Chocolate",
+          "results": 34
+        },
+        {
+          "id": "11040146",
+          "name": "Torta de Maçã",
+          "results": 34
+        },
+        {
+          "id": "11040102",
+          "name": "Chocolate com Chocolate Branco",
+          "results": 34
+        },
+        {
+          "id": "11040071",
+          "name": "Chocolate ao Leite Alpine",
+          "results": 34
+        },
+        {
+          "id": "11040050",
+          "name": "Prestígio",
+          "results": 34
+        },
+        {
+          "id": "11040039",
+          "name": "Creme de Cacau e Chocolate ao Leite",
+          "results": 34
+        },
+        {
+          "id": "11033619",
+          "name": "Morango com Chocolate",
+          "results": 34
+        },
+        {
+          "id": "10743828",
+          "name": "Creme de avelã",
+          "results": 34
+        },
+        {
+          "id": "10317860",
+          "name": "Cocada",
+          "results": 34
+        },
+        {
+          "id": "10317838",
+          "name": "Amanteigado",
+          "results": 34
+        },
+        {
+          "id": "10256436",
+          "name": "Duo",
+          "results": 34
+        },
+        {
+          "id": "10084262",
+          "name": "com Gotas de Chocolate",
+          "results": 34
+        }
+      ]
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "Outras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "É livre de glúten",
+          "results": 20561
+        }
+      ]
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condição",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Novo",
+          "results": 55875
+        }
+      ]
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venda",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidade",
+          "results": 42376
+        },
+        {
+          "id": "1359392",
+          "name": "Kit",
+          "results": 7236
+        },
+        {
+          "id": "2164820",
+          "name": "Caixa",
+          "results": 34
+        },
+        {
+          "id": "13392285",
+          "name": "1",
+          "results": 34
+        }
+      ]
+    },
+    {
+      "id": "SHIPPING_ORIGIN",
+      "name": "Tipo de compra",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "10215068",
+          "name": "Local",
+          "results": 55875
+        }
+      ]
+    },
+    {
+      "id": "UNIT_WEIGHT",
+      "name": "Peso da unidade",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-40g]",
+          "name": "40 g ou menos",
+          "results": 10541
+        },
+        {
+          "id": "[40g-100g]",
+          "name": "40 a 100 g",
+          "results": 10263
+        },
+        {
+          "id": "[100g-400g]",
+          "name": "100 a 400 g",
+          "results": 12490
+        },
+        {
+          "id": "[400g-*)",
+          "name": "400 g ou mais",
+          "results": 13881
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "Localização",
+      "type": "text",
+      "values": [
+        {
+          "id": "TUxCUFNBT085N2E4",
+          "name": "São Paulo",
+          "results": 62364
+        },
+        {
+          "id": "TUxCUFBBUkExODBlZA",
+          "name": "Paraná",
+          "results": 4714
+        },
+        {
+          "id": "TUxCUFJJT08xODM5Zg",
+          "name": "Rio de Janeiro",
+          "results": 3131
+        },
+        {
+          "id": "TUxCUE1JTlMxNTAyZA",
+          "name": "Minas Gerais",
+          "results": 2383
+        },
+        {
+          "id": "TUxCUEVTUE8xN2Y3NA",
+          "name": "Espírito Santo",
+          "results": 2348
+        },
+        {
+          "id": "TUxCUFNBTkE5Nzc4",
+          "name": "Santa Catarina",
+          "results": 1182
+        },
+        {
+          "id": "TUxCUFJJT0xkYzM0",
+          "name": "Rio Grande do Sul",
+          "results": 1113
+        },
+        {
+          "id": "TUxCUEJBSEFlYmEx",
+          "name": "Bahia",
+          "results": 782
+        },
+        {
+          "id": "TUxCUERJU0wxMWJhYg",
+          "name": "Distrito Federal",
+          "results": 208
+        },
+        {
+          "id": "TUxCUEdPSVMxNzVmMw",
+          "name": "Goiás",
+          "results": 156
+        },
+        {
+          "id": "TUxCUE1BVEw4ZTc",
+          "name": "Mato Grosso do Sul",
+          "results": 52
+        },
+        {
+          "id": "TUxCUEFNQVMxNzgwYQ",
+          "name": "Amazonas",
+          "results": 52
+        },
+        {
+          "id": "TUxCUFBFUk8xZmZj",
+          "name": "Pernambuco",
+          "results": 52
+        }
+      ]
+    },
+    {
+      "id": "official_store",
+      "name": "Lojas oficiais",
+      "type": "text",
+      "values": [
+        {
+          "id": "all",
+          "name": "Todas as Lojas oficiais",
+          "results": 11255
+        },
+        {
+          "id": "3221",
+          "name": "Marsil",
+          "results": 956
+        },
+        {
+          "id": "4996",
+          "name": "Carrefour Mercado",
+          "results": 1043
+        },
+        {
+          "id": "2707",
+          "name": "Mercado Livre",
+          "results": 521
+        },
+        {
+          "id": "3545",
+          "name": "Pao de Acucar",
+          "results": 852
+        },
+        {
+          "id": "2318",
+          "name": "Extra",
+          "results": 330
+        },
+        {
+          "id": "5082",
+          "name": "Super Muffato",
+          "results": 347
+        },
+        {
+          "id": "4541",
+          "name": "Bold Snacks",
+          "results": 243
+        },
+        {
+          "id": "5263",
+          "name": "A Casa dos Doces",
+          "results": 1478
+        },
+        {
+          "id": "70060",
+          "name": "All Natural Food",
+          "results": 539
+        },
+        {
+          "id": "71042",
+          "name": "Lindt",
+          "results": 330
+        },
+        {
+          "id": "2633",
+          "name": "Hersheys",
+          "results": 226
+        }
+      ]
+    },
+    {
+      "id": "category",
+      "name": "Categorias",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLB439589",
+          "name": "Doces e Chocolates",
+          "results": 64764
+        },
+        {
+          "id": "MLB410854",
+          "name": "Confeitaria e Bomboniere",
+          "results": 5758
+        },
+        {
+          "id": "MLB439588",
+          "name": "Cereais e Barras",
+          "results": 2870
+        },
+        {
+          "id": "MLB439656",
+          "name": "Aromatizantes e Xaropes",
+          "results": 2191
+        },
+        {
+          "id": "MLB194831",
+          "name": "Infusões",
+          "results": 1722
+        },
+        {
+          "id": "MLB439606",
+          "name": "Geléias, Doces e Mel",
+          "results": 1583
+        },
+        {
+          "id": "MLB439566",
+          "name": "Alimentos Instantâneos",
+          "results": 643
+        },
+        {
+          "id": "MLB455522",
+          "name": "Padaria",
+          "results": 278
+        },
+        {
+          "id": "MLB439667",
+          "name": "Molhos e Condimentos",
+          "results": 156
+        },
+        {
+          "id": "MLB439669",
+          "name": "Snacks",
+          "results": 104
+        },
+        {
+          "id": "MLB1429",
+          "name": "Outros",
+          "results": 260
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Produto",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLB21521357",
+          "name": "Lacta Sonho de Valsa 1kg",
+          "results": 121
+        },
+        {
+          "id": "MLB25372163",
+          "name": "Moedas Chocolate - Pote 690g - Festa",
+          "results": 121
+        },
+        {
+          "id": "MLB26663969",
+          "name": "Lacta caixa de Bombons de chocolate sortidos favoritos 250,6g ",
+          "results": 121
+        },
+        {
+          "id": "MLB17803099",
+          "name": "Toblerone chocolate ao leite sem glúten com nougat de mel e amêndoas caixa 100g",
+          "results": 69
+        },
+        {
+          "id": "MLB17803337",
+          "name": "Chocolate ao Leite Aerado Suflair Nestlé  chocolate ao leite pacote 80 g",
+          "results": 69
+        },
+        {
+          "id": "MLB18399619",
+          "name": "Chocolate Strawberry Yoghurt Milka 100g",
+          "results": 69
+        },
+        {
+          "id": "MLB19538428",
+          "name": "Chocolate Stikadinho Morango Neugebauer Chocolates 12g- 32un",
+          "results": 69
+        },
+        {
+          "id": "MLB19744352",
+          "name": "Recheio Forneável P/ Pizza Sabor Chocolate Branco Harald",
+          "results": 69
+        },
+        {
+          "id": "MLB19754492",
+          "name": "Chocolate Mini Talento Avelãs 25g Caixa C/15",
+          "results": 69
+        },
+        {
+          "id": "MLB19765650",
+          "name": "Granulado Macio 500g Dori",
+          "results": 69
+        },
+        {
+          "id": "MLB19923070",
+          "name": "Pacote De Moeda De Chocolate Bel - 500g ( ± 130 Moedas)",
+          "results": 69
+        },
+        {
+          "id": "MLB20761740",
+          "name": "Confete De Chocolate Coloreti Grande 1 Kg - Jazam",
+          "results": 69
+        },
+        {
+          "id": "MLB20811011",
+          "name": "Chocolate Duo Baton Ao Leite/branco C/30un Garoto",
+          "results": 69
+        },
+        {
+          "id": "MLB20951545",
+          "name": "Chocolate Kit Kat Ao Leite 41,5g Caixa C/24 Und. - Nestlé",
+          "results": 69
+        },
+        {
+          "id": "MLB20951576",
+          "name": "Chocolate Mini Talento Diet Avelãs Garoto C/15x25g",
+          "results": 69
+        },
+        {
+          "id": "MLB22520807",
+          "name": "Chocolate Meio Amargo 40% Cacau Hershey's  sem glúten pacote 82 g",
+          "results": 69
+        },
+        {
+          "id": "MLB22639728",
+          "name": "Caixa Moranguete 36x13g Bel",
+          "results": 69
+        },
+        {
+          "id": "MLB26249374",
+          "name": "Chocolate Bisão Branco 201,6g Lacta Bis",
+          "results": 69
+        },
+        {
+          "id": "MLB34001591",
+          "name": "Chocolate Snickers Sabor Morango Contém 20 Unidades De 42g",
+          "results": 69
+        },
+        {
+          "id": "MLB17465319",
+          "name": "Cápsulas café Expresso Vibrante 10 unidades de 8g 3 Corações",
+          "results": 17
+        },
+        {
+          "id": "MLB17803134",
+          "name": "Chocolate Amargo 73% Cacau Tradicional Special Dark Hershey's  pacote 85 g",
+          "results": 17
+        }
+      ]
+    }
+  ],
+  "pdp_tracking": {
+    "group": false,
+    "product_info": [
+      {
+        "id": "MLB27989974",
+        "score": 1,
+        "status": "shown"
+      }
+    ]
+  }
+}

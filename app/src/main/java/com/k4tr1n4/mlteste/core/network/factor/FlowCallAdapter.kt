@@ -29,9 +29,6 @@ class ResponseCallAdapter<T>(
 
                         override fun onResponse(call: Call<T>, response: Response<T>) {
                             response.body()?.let {
-                                Log.d("Response - message:", response.message())
-                                Log.d("Response - header:", response.headers().toString())
-                                Log.d("Response - body:", response.body().toString())
                                 continuation.resume(it)
                             } ?: kotlin.run {
                                 continuation.resumeWithException(
@@ -44,9 +41,6 @@ class ResponseCallAdapter<T>(
                 }
                 emit(LoadingEvent.Success(result))
             }catch (t: Throwable){
-                Log.e("Response - error message:", t.message.toString())
-                Log.e("Response - error cause:", t.cause.toString())
-                Log.d("Response - error stack trace:", t.stackTraceToString())
                 emit(LoadingEvent.Error(t))
             }
         }

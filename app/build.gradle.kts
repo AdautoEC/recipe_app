@@ -90,6 +90,7 @@ android {
             option("-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true")
         }
     }
+
     applicationVariants.all {
         addJavaSourceFoldersToModel(
             File(buildFile, "generated/ksp/$name/kotlin")
@@ -147,11 +148,5 @@ dependencies {
     testImplementation(libs.mockito.core)
     testImplementation(libs.core.testing)
     testImplementation(libs.mockito.kotlin)
-
-    androidTestImplementation(libs.hilt.android.testing)
-    androidTestImplementation(libs.truth)
-    androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(libs.espresso.core)
-    androidTestImplementation(libs.runner)
 
 }

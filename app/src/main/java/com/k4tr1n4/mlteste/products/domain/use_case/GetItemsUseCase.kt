@@ -53,12 +53,3 @@ class GetItemsUseCase @Inject constructor(
 }
 
 fun String.addHTTPS() = this.replace(HTTP, HTTPS)
-fun String.getThumbnailModel(): ThumbnailModel {
-    val values = this.split(".")
-    if(values.size == 2)
-        return ThumbnailModel(
-            path = values[0].replace(".", ""),
-            extension = values[1]
-        )
-    return ThumbnailModel(path = "", extension = "")
-}
