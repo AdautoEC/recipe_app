@@ -1,20 +1,16 @@
 package com.k4tr1n4.mlteste.products.domain
 
+import androidx.paging.LoadState
+import androidx.paging.PagingData
+import androidx.paging.map
 import app.cash.turbine.test
-import com.k4tr1n4.mlteste.products.domain.repository.MLRepository
+import com.k4tr1n4.mlteste.products.data.remote.model.SearchItemModel
+import com.k4tr1n4.mlteste.products.domain.data_source.ItemDataSourceFactory
 import com.k4tr1n4.mlteste.products.domain.use_case.GetItemsUseCase
 import com.k4tr1n4.mlteste.products.util.MainCourotinesRule
 import com.k4tr1n4.mlteste.products.util.MockUtil
-import com.k4tr1n4.mlteste.core.network.model.LoadingEvent
-import com.k4tr1n4.mlteste.core.network.model.getErrorThrowableOrNull
-import com.k4tr1n4.mlteste.core.network.model.getSuccessDataOrNull
-import com.k4tr1n4.mlteste.core.network.model.isLoading
-import com.k4tr1n4.mlteste.products.domain.data_source.ItemDataSourceFactory
-import com.nhaarman.mockitokotlin2.atLeastOnce
-import com.nhaarman.mockitokotlin2.verify
-import com.nhaarman.mockitokotlin2.verifyNoMoreInteractions
-import com.nhaarman.mockitokotlin2.whenever
-import junit.framework.TestCase
+import io.mockk.coEvery
+import io.mockk.mockk
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.test.runTest
@@ -22,17 +18,11 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.mockito.Mock
 import org.mockito.MockitoAnnotations
-import kotlin.time.DurationUnit
-import kotlin.time.toDuration
 
 class GetItemsUseCaseTest {
-
-    @Mock
-    private lateinit var repository: MLRepository
-    private lateinit var dataSourceFactory: ItemDataSourceFactory
-    private lateinit var useCase: GetItemsUseCase
+    private val dataSourceFactory: ItemDataSourceFactory = mockk()
+    private val useCase = GetItemsUseCase(dataSourceFactory)
 
     @get:Rule
     val coroutinesRule = MainCourotinesRule()
@@ -40,55 +30,60 @@ class GetItemsUseCaseTest {
     @Before
     fun setup() {
         MockitoAnnotations.openMocks(this)
-        dataSourceFactory = ItemDataSourceFactory(repository)
-        useCase = GetItemsUseCase(dataSourceFactory)
     }
 
     @Test
-    fun `when execute api getSearchItems return mock success`() = runTest {
-        val mockItem = MockUtil.mockSearchItemModel()
+    fun `when execute data source getItems return mock success`() = runTest {
+        //ToDO(pag3 test)
+        val mockItem = MockUtil.mockMLList()[0].title
+        val expectedFlow = flowOf(
+            PagingData.from(MockUtil.mockSearchItemModel().results)
+        ).flowOn(coroutinesRule.testDispatcher)
+        coEvery { dataSourceFactory.getItems("") } returns expectedFlow
 
-        whenever(repository.getSearchItems("", 0))
-            .thenReturn(flowOf(LoadingEvent.Success(mockItem)))
+        useCase.invoke("").test {
+            val item = awaitItem()
+            item.map{
+                assertEquals(mockItem, it.title)
+            }
 
-        useCase("").test(2.toDuration(DurationUnit.SECONDS)) {
-            val exceptItem = awaitItem()
-            //assertEquals(exceptItem, MockUtil.mockMLItemModel())
             awaitComplete()
         }
-
-        verify(repository, atLeastOnce()).getSearchItems("", 0)
-        verifyNoMoreInteractions(repository)
     }
 
     @Test
-    fun `when execute api getComics return mock error`() = runTest {
-        /*val mockThrowable = MockUtil.mockThrowable()
+    fun `when execute data source getItems return mock error`() = runTest {
+        //ToDO(pag3 test)
+        val expectedFlow = flowOf(PagingData.empty<SearchItemModel.Result>(
+            sourceLoadStates = MockUtil.mockLoadStatesError()
+        )).flowOn(coroutinesRule.testDispatcher)
+        coEvery { dataSourceFactory.getItems("") } returns expectedFlow
 
-        whenever(repository.getComics()).thenReturn(flowOf(LoadingEvent.Error(mockThrowable)))
+        useCase.invoke("").test {
+            val item = awaitItem()
+            item.map{
+                assertEquals(LoadState.Error(MockUtil.mockThrowable()), item)
+            }
 
-        useCase().test(2.toDuration(DurationUnit.SECONDS)) {
-            val exceptItem = awaitItem().getErrorThrowableOrNull()?.message
-            TestCase.assertEquals(exceptItem, MockUtil.mockThrowable().message)
             awaitComplete()
         }
-
-        verify(repository, atLeastOnce()).getComics()
-        verifyNoMoreInteractions(repository)*/
     }
 
     @Test
-    fun `when execute api getComics return mock loading`() = runTest {
+    fun `when execute data source getItems return mock loading`() = runTest {
+        //ToDO(pag3 test)
+        val expectedFlow = flowOf(PagingData.empty<SearchItemModel.Result>(
+            sourceLoadStates = MockUtil.mockLoadStatesLoading()
+        )).flowOn(coroutinesRule.testDispatcher)
+        coEvery { dataSourceFactory.getItems("") } returns expectedFlow
 
-       /* whenever(repository.getComics()).thenReturn(flowOf(LoadingEvent.Loading))
+        useCase.invoke("").test {
+            val item = awaitItem()
+            item.map{
+                assertEquals(LoadState.Loading, item)
+            }
 
-        useCase().test(2.toDuration(DurationUnit.SECONDS)) {
-            val exceptItem = awaitItem().isLoading()
-            TestCase.assertEquals(exceptItem, true)
             awaitComplete()
         }
-
-        verify(repository, atLeastOnce()).getComics()
-        verifyNoMoreInteractions(repository)*/
     }
 }

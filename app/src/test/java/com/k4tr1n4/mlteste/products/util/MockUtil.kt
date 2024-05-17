@@ -1,19 +1,15 @@
 package com.k4tr1n4.mlteste.products.util
 
+import androidx.paging.LoadState
+import androidx.paging.LoadStates
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.k4tr1n4.mlteste.products.data.remote.model.ItemModel
-import com.k4tr1n4.mlteste.products.data.remote.model.ItemModel.DataModel
-import com.k4tr1n4.mlteste.products.data.remote.model.ItemModel.DataModel.ResultModel
-import com.k4tr1n4.mlteste.products.data.remote.model.ItemModel.DataModel.ResultModel.ThumbnailModel
 import com.k4tr1n4.mlteste.products.data.remote.model.SearchItemModel
 import com.k4tr1n4.mlteste.products.domain.model.MLItemModel
-import okhttp3.mockwebserver.MockResponse
 import okio.buffer
 import okio.source
 import java.lang.reflect.Type
 import java.nio.charset.StandardCharsets
-import kotlin.reflect.KClass
 
 
 object MockUtil {
@@ -26,6 +22,9 @@ object MockUtil {
     fun mockSearchItemModel(): SearchItemModel = fromJson("/SearchResponse.json")
 
     fun mockMLItemModel(): MLItemModel = mockSearchItemModel().results[0].toMLItemModel()
+    fun mockMLList(): List<MLItemModel> = mockSearchItemModel().results.map {
+        it.toMLItemModel()
+    }
 
     private fun SearchItemModel.Result.toMLItemModel(): MLItemModel {
         return MLItemModel(
@@ -49,4 +48,18 @@ object MockUtil {
         )
     }
     fun mockThrowable() = Throwable("default error")
+
+    fun mockLoadStatesError() =
+        LoadStates(
+            refresh = LoadState.Error(mockThrowable()),
+            prepend = LoadState.Error(mockThrowable()),
+            append = LoadState.Error(mockThrowable())
+        )
+
+    fun mockLoadStatesLoading() =
+        LoadStates(
+            refresh = LoadState.Loading,
+            prepend = LoadState.Loading,
+            append = LoadState.Loading
+        )
 }

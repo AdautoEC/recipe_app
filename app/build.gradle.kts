@@ -148,5 +148,7 @@ dependencies {
     testImplementation(libs.mockito.core)
     testImplementation(libs.core.testing)
     testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.mockk.android)
+    testImplementation(libs.mockk.agent)
 
 }
